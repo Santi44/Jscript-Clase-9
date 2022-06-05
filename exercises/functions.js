@@ -5,7 +5,7 @@
 function suma(value1, value2) {
     return value1 + value2;
 }
-var resultado = suma(4, 2);
+var resul = suma(4, 2);
 console.log(resul);
 
 //A la función suma anterior, agregarle una validación para controlar si alguno de
