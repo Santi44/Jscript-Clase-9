@@ -33,19 +33,19 @@ console.log(valEnt("televisor"));
 console.log(valEnt(4.7));
 console.log(valEnt(6));
 
-//A la functionión suma del ejercicio 6b) agregarle una llamada que valide que los
+//A la funcion suma del ejercicio 6b) agregarle una llamada que valide que los
 //números sean enteros. En caso que haya decimales mostrar un alerta con el
 //error y retorna el número convertido a entero (redondeado).
 
-//Convertir la validación del ejercicio 6d) en una functionión separada y llamarla
-//dentro de la función suma probando que todo siga functionionando igual
+//Convertir la validación del ejercicio 6d) en una función separada y llamarla
+//dentro de la función suma probando que todo siga funcionando igual
 function suma3(value1, value2) {
     if (isNaN(value1) || isNaN(value2)) {
         return "NaN";
     } else if (valEnt(value1) && valEnt(value2)) {
         return value1+value2;
     } else {
-        alert("Error valores decimales");
+        alert("Error con valores decimales");
     }    
 }
 console.log(suma3("como va?", 2));
