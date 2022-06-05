@@ -6,6 +6,9 @@ Number1 = 8;
 Number2 = 3;
 Number3 = Number1+Number2;
 
+/*agrego console para poder verificarlo*/
+console.log(Number3);
+
 
 /*Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.*/
 
@@ -13,6 +16,9 @@ var texto1,texto2,texto3;
 texto1 = "Ejercicio ";
 texto2 = "Clase";
 texto3 = texto1+texto2;
+
+/*agrego console para poder verificarlo*/
+console.log(texto3);
 
 
 /*Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string) 
@@ -22,4 +28,7 @@ var Primero,Segundo,Cantidad_Tercero;
 Primero = "Una variable tipo string";
 Segundo = "Segunda variable tipo string";
 Cantidad_Tercero = (Primero+Segundo).length;
+
+/*agrego console para poder verificarlo*/
+console.log(Cantidad_Tercero);
 
