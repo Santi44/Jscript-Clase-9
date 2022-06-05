@@ -10,8 +10,8 @@ Number3 = Number1+Number2;
 /*Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.*/
 
 var texto1,texto2,texto3;
-texto1 = "Hola ";
-texto2 = "mundo";
+texto1 = "Ejercicio ";
+texto2 = "Clase";
 texto3 = texto1+texto2;
 
 
